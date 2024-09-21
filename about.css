@@ -1,0 +1,28 @@
+body{
+    font: 15px/1.5  Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: #f8f8f8;
+    }
+ .container{
+    /*Global*/
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+ }
+ ul{
+    margin: 0;
+    padding: 0;
+ }
+ .container-1{
+    width:50%;
+    margin-left:150px;
+ }
+ .button_1{
+   height:34px;
+   background: #e8491d;
+   border: 0;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: #ffff;
+ }
