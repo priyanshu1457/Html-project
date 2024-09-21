@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+
+header {
+    background-color: #222222;
+    color: white;
+    padding: 10px 0;
+    text-align:center;
+}
+
+/*nav {
+    
+    justify-content: space-between;
+    padding: 0 20px;
+    justify-items: center;
+}
+
+/*nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 42%;
+    margin-bottom: 1%;
+}
+*/
+.logo h1{
+    /* margin-left:20%;
+    margin-top: 1%; */
+    text-align: center;
+    font-size: 24px;
+}
+
+ .logo ul{
+    /* margin-left: 33%; */
+    text-align: center;
+} 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.welcome-section h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.welcome-section p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5078d4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.courses-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.courses-section h2 {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.course h3 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+}
+
+.course p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #646464;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
